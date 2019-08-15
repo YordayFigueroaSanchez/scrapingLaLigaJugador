@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jornadas>
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="1" masDe60Min="-" partidoJugado="1" rival="ATL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="2" masDe60Min="-" partidoJugado="1" rival="ESP" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="3" masDe60Min="-" partidoJugado="1" rival="LEV" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="4" masDe60Min="-" partidoJugado="1" rival="BET" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="5" masDe60Min="-" partidoJugado="1" rival="VLL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="6" masDe60Min="-" partidoJugado="-" rival="CEL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="7" masDe60Min="-" partidoJugado="1" rival="RSO" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="8" masDe60Min="-" partidoJugado="1" rival="BAR" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="9" masDe60Min="-" partidoJugado="1" rival="LEG" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="10" masDe60Min="-" partidoJugado="1" rival="ATH" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="11" masDe60Min="-" partidoJugado="-" rival="GIR" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="12" masDe60Min="-" partidoJugado="1" rival="GET" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="13" masDe60Min="-" partidoJugado="1" rival="RAY" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="14" masDe60Min="-" partidoJugado="1" rival="RMD" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="15" masDe60Min="-" partidoJugado="1" rival="SEV" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="16" masDe60Min="-" partidoJugado="1" rival="EIB" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="17" masDe60Min="-" partidoJugado="1" rival="HUE" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="18" masDe60Min="-" partidoJugado="1" rival="ALV" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="19" masDe60Min="-" partidoJugado="1" rival="VLL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="20" masDe60Min="-" partidoJugado="1" rival="CEL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="21" masDe60Min="-" partidoJugado="1" rival="VLL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="22" masDe60Min="-" partidoJugado="1" rival="BAR" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="23" masDe60Min="-" partidoJugado="1" rival="RSO" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="24" masDe60Min="-" partidoJugado="1" rival="ESP" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="25" masDe60Min="-" partidoJugado="1" rival="LEG" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="26" masDe60Min="-" partidoJugado="1" rival="ATH" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="27" masDe60Min="-" partidoJugado="1" rival="GIR" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="28" masDe60Min="-" partidoJugado="1" rival="GET" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="29" masDe60Min="-" partidoJugado="1" rival="SEV" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="30" masDe60Min="-" partidoJugado="1" rival="RMD" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="31" masDe60Min="-" partidoJugado="1" rival="RAY" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="32" masDe60Min="-" partidoJugado="1" rival="LEV" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="33" masDe60Min="-" partidoJugado="1" rival="BET" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="34" masDe60Min="-" partidoJugado="1" rival="ATL" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="35" masDe60Min="-" partidoJugado="1" rival="EIB" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="36" masDe60Min="-" partidoJugado="1" rival="HUE" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="37" masDe60Min="-" partidoJugado="1" rival="ALV" />
+	<jornada asistenciaDeGol="0" asistenciaSinGol="0" goles="0"
+		jornadaNumero="38" masDe60Min="-" partidoJugado="1" rival="VLL" />
+</jornadas>

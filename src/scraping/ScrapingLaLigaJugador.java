@@ -43,9 +43,9 @@ public class ScrapingLaLigaJugador {
 		org.w3c.dom.Element rootElement = doc.createElement("jornadas");
 		doc.appendChild(rootElement);
 
-		//if (getStatusConnectionCode(url2) == 200) {
+//		if (getStatusConnectionCode(url2) == 200) {
 		if (getStatusFile(file) == 1) {
-			//Document documento = getHtmlDocument(url2);
+//			Document documento = getHtmlDocument(url2);
 			Document documento = getHtmlFileToDocument(file);
 			
 			Elements elemntosPrueba = documento.select("h1.name");
@@ -109,43 +109,94 @@ public class ScrapingLaLigaJugador {
 				
 //				Lle: LLegadas al área
 				String llegadasAlArea = elementosTD.get(7).text();
+				Attr attrllegadasAlArea = doc.createAttribute("llegadasAlArea");
+				attrllegadasAlArea.setValue(llegadasAlArea);
+				jornada.setAttributeNode(attrllegadasAlArea);
 				
 //				Pty p: Penaltis provocados
 				String penaltisProvocados = elementosTD.get(8).text();
+				Attr attrpenaltisProvocados = doc.createAttribute("penaltisProvocados");
+				attrpenaltisProvocados.setValue(penaltisProvocados);
+				jornada.setAttributeNode(attrpenaltisProvocados);
 				
 //				P 0: Portería a cero
 				String porteriaEnCero = elementosTD.get(9).text();
+				Attr attrporteriaEnCero = doc.createAttribute("porteriaEnCero");
+				attrporteriaEnCero.setValue(porteriaEnCero);
+				jornada.setAttributeNode(attrporteriaEnCero);
 				
 //				Pty d: Penaltis parados
 				String penaltisParados = elementosTD.get(10).text();
+				Attr attrpenaltisParados = doc.createAttribute("penaltisParados");
+				attrpenaltisParados.setValue(penaltisParados);
+				jornada.setAttributeNode(attrpenaltisParados);
 				
 //				P: Paradas
 				String paradas = elementosTD.get(11).text();
+				Attr attrparadas = doc.createAttribute("paradas");
+				attrparadas.setValue(paradas);
+				jornada.setAttributeNode(attrparadas);
 				
 //				D: Despejes
 				String despejes = elementosTD.get(12).text();
+				Attr attrdespejes = doc.createAttribute("despejes");
+				attrdespejes.setValue(despejes);
+				jornada.setAttributeNode(attrdespejes);
 //				Pty f: Penaltis fallados
 				String penaltisFallados = elementosTD.get(13).text();
+				Attr attrpenaltisFallados = doc.createAttribute("penaltisFallados");
+				attrpenaltisFallados.setValue(penaltisFallados);
+				jornada.setAttributeNode(attrpenaltisFallados);
 //				Gpp: Goles en propia meta
 				String golesEnPropiaMeta = elementosTD.get(14).text();
+				Attr attrgolesEnPropiaMeta = doc.createAttribute("golesEnPropiaMeta");
+				attrgolesEnPropiaMeta.setValue(golesEnPropiaMeta);
+				jornada.setAttributeNode(attrgolesEnPropiaMeta);
 //				Ge: Goles encajados
 				String golesEncajados = elementosTD.get(15).text();
+				Attr attrgolesEncajados = doc.createAttribute("golesEncajados");
+				attrgolesEncajados.setValue(golesEncajados);
+				jornada.setAttributeNode(attrgolesEncajados);
 //				Ta: Tarjetas amarillas
 				String tarjetasAmarillas = elementosTD.get(16).text();
+				Attr attrtarjetasAmarillas = doc.createAttribute("tarjetasAmarillas");
+				attrtarjetasAmarillas.setValue(tarjetasAmarillas);
+				jornada.setAttributeNode(attrtarjetasAmarillas);
 //				Tr: Tarjetas rojas
 				String tarjetasRojas = elementosTD.get(17).text();
+				Attr attrtarjetasRojas = doc.createAttribute("tarjetasRojas");
+				attrtarjetasRojas.setValue(tarjetasRojas);
+				jornada.setAttributeNode(attrtarjetasRojas);
 //				Rm: Remates
 				String remates = elementosTD.get(18).text();
+				Attr attrremates = doc.createAttribute("remates");
+				attrremates.setValue(remates);
+				jornada.setAttributeNode(attrremates);
 //				Rg: Regates
 				String regates = elementosTD.get(19).text();
+				Attr attrregates = doc.createAttribute("regates");
+				attrregates.setValue(regates);
+				jornada.setAttributeNode(attrregates);
 //				Rec: Recuperaciones
 				String recuperaciones = elementosTD.get(20).text();
+				Attr attrrecuperaciones = doc.createAttribute("recuperaciones");
+				attrrecuperaciones.setValue(recuperaciones);
+				jornada.setAttributeNode(attrrecuperaciones);
 //				Per: Pérdidas
 				String perdidas = elementosTD.get(21).text();
+				Attr attrperdidas = doc.createAttribute("perdidas");
+				attrperdidas.setValue(perdidas);
+				jornada.setAttributeNode(attrperdidas);
 //				Tot: Total
 				String puntoTotal = elementosTD.get(23).text();
+				Attr attrpuntoTotal = doc.createAttribute("puntoTotal");
+				attrpuntoTotal.setValue(puntoTotal);
+				jornada.setAttributeNode(attrpuntoTotal);
 //				MAR: Puntos MARCA
 				String puntoMarca = elementosTD.get(22).text();
+				Attr attrpuntoMarca = doc.createAttribute("puntoMarca");
+				attrpuntoMarca.setValue(puntoMarca);
+				jornada.setAttributeNode(attrpuntoMarca);
 
 			}
 		}
